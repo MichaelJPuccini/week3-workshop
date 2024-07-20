@@ -1,0 +1,32 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#username {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+#password {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+.hidden{
+    display:none;
+}
+.showmessage{
+    display:block;
+}
+#errormsg {
+    color: red;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#successmsg {
+    color: green;
+    font-size: 1.5em;
+    font-weight: bold;
+}
