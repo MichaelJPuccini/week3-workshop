@@ -3,15 +3,6 @@ $(document).ready(function() {
     $("#loginform").submit(function(event) {
         event.preventDefault();
         post();
-
-    //     var username = $("#username").val();
-    //     var password = $("#password").val();
-    //     if (username === "admin" && password === "admin") {
-    //         alert("Login successful");
-    //     } else {
-    //         alert("Login failed");
-    //     }
-    // }
     });
 });
 
