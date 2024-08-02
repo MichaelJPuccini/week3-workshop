@@ -29,8 +29,10 @@ app.post('/account', function(req, res) {
     // Check if the email and password match any of the accounts
     let account = loginAccounts.find(account => account.email === customer.email && account.password === customer.password);
     if (account) {
+        console.log("Successful Login for " + customer.email);
         res.send ({valid: true});
     } else {    
+        console.log("Login Attempt Failed for " + customer.email);
         res.send ({valid: false});
     }
 
